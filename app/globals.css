@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ================================
+   BrandBandhu Design System
+   Strictly Corporate Dark Theme
+================================ */
+
+:root {
+  --bg-primary: #0F172A;     /* Deep Slate */
+  --bg-secondary: #1E293B;   /* Card Slate */
+  --text-primary: #FFFFFF;  /* Headings */
+  --text-secondary: #94A3B8;/* Body */
+  --brand-blue: #3572B0;     /* Primary CTA */
+  --brand-orange: #E67E22;   /* Accent */
+}
+
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'Inter', sans-serif;
+}
+
+/* Utility Components */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.5);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.neon-text {
+  text-shadow: 0 0 6px rgba(53, 114, 176, 0.6);
+}
